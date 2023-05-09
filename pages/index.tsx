@@ -1,118 +1,126 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+/* eslint-disable @next/next/no-img-element */
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    >
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">pages/index.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main>
+      <Header />
+      <div className="flex flex-row px-60 py-40">
+        <div className="w-2/5">
+          <img src="wp/wp-content/uploads/2022/12/Frame-31-2.png" alt="icon1" />
+          <span className="text-title text-3xl leading-tight font-extrabold ">
+            Decentralized Derivative Exchange
+          </span>
+
+          <div>
+            <span>
+              Trade BTC, ETH, BNB, and other financial assets with up to 30x
+              leverage directly from your wallet
+            </span>
+          </div>
+          <div>
+            <a href="https://app.openworld.vision">Launch App</a>
+          </div>
+        </div>
+        <div className="relative">
+          <div className="absolute left-0 -top-8">
+            <img src="wp/wp-content/uploads/2022/12/Group-3-1.png" />
+          </div>
+          <img src="wp/wp-content/uploads/2022/12/Group-17.png" />
+          <div className="absolute right-12 -top-8">
+            <img src="wp/wp-content/uploads/2022/12/Group-16.png" />
+          </div>
         </div>
       </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className="bg-section px-0">
+        <div className="flex flex-row bg-section justify-center px-40 py-20">
+          <div className="relative box-content bg-white px-4 pt-4 pb-16 rounded-2xl">
+            <div className="absolute h-14 w-14 left-4 -top-12 shadow-2xl rounded-full w-20 h-20">
+              <img src="wp/wp-content/uploads/2022/12/save-icon.svg" />
+            </div>
+            <div className="pt-8 text-title text-xl font-extrabold tracking-wider">
+              Reduce Liquidation Risk
+            </div>
+            <img
+              src="wp/wp-content/uploads/2022/12/Rectangle-27.svg"
+              className="mt-2 mb-4"
+            />
+            <div className="ml-4 text-text tracking-wider">
+              Aggregated price feed by ChainLink Oracles smooth out price
+              anomalies and reduced liquidation risk for traders.
+            </div>
+          </div>
+          <div className="relative box-content bg-white px-4 pt-4 pb-16 rounded-2xl mx-8">
+            <div className="absolute h-14 w-14 left-4 -top-12 shadow-2xl rounded-full w-20 h-20">
+              <img src="wp/wp-content/uploads/2022/12/Frame-37-svg-02.svg" />
+            </div>
+            <div className="pt-8 text-title text-xl font-extrabold tracking-wider">
+              Minimum Trade Cost
+            </div>
+            <img
+              src="wp/wp-content/uploads/2022/12/Rectangle-27.svg"
+              className="my-2"
+            />
+            <div className="ml-4 text-text tracking-wider">
+              One simple and minimal opening and closing trade fee instead of
+              various fee everywhere. Zero price impact trades.
+            </div>
+          </div>
+          <div className="relative box-content bg-white px-4 pt-4 pb-16 rounded-2xl">
+            <div className="absolute h-14 w-14 left-4 -top-12 shadow-2xl rounded-full w-20 h-20">
+              <img src="wp/wp-content/uploads/2022/12/Frame-37-svg-03.svg" />
+            </div>
+            <div className="pt-8 text-title text-xl font-extrabold tracking-wider">
+              Non-Custodial Trading
+            </div>
+            <img
+              src="wp/wp-content/uploads/2022/12/Rectangle-27.svg"
+              className="my-2"
+            />
+            <div className="ml-4 text-text tracking-wider">
+              No risk of trading house insolvency. Trade directly from your
+              wallet without depositing funds into any custodial service.
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
+      <div className="flex flex-row  justify-center px-40 py-20">
+        <div className="flex-1 p-8">
+          <img src="wp/wp-content/uploads/2022/12/app-img-02-02.png" />
+        </div>
+        <div className="flex-1">
+          <div className="px-8">
+            <img src="wp/wp-content/uploads/2022/12/trade-free-icon.svg" />
+            <span className="text-title text-2xl font-bold leading-tight ">
+              Zero price impact with minimum fee
             </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
+            <img
+              src="wp/wp-content/uploads/2022/12/Rectangle-27.svg"
+              className="my-2"
+            />
+            <span className="text-base text-text">
+              Trade synthetic financial assets with minimal fee, zero price
+              impact, and up to 30x more buying power. No deposit.
             </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Discover and deploy boilerplate example Next.js&nbsp;projects.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+          </div>
+          <div className="flex flex-row justify-end p-8">
+            <div className="flex-1">
+              <div className="flex bg-button p-4 w-1/2 justify-center rounded-3xl">
+                <div className="text-white font-semibold">Trade now</div>
+              </div>
+            </div>
+            <div className="flex flex-1 justify-end">
+              <div className="flex align-center h border-2 border-button p-0 rounded-2xl">
+                <div className="text-sm px-2">Learn more</div>
+              </div>
+              <div className="border-2 border-button p-0 rounded-2xl ">
+                <div className="text-sm px-2">Join Discord</div>
+              </div>
+            </div>
+          </div>
+          <div>1</div>
+        </div>
       </div>
     </main>
-  )
+  );
 }
