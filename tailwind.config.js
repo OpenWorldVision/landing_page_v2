@@ -26,6 +26,9 @@ module.exports = {
         "2xl": "40px",
         "3xl": "55px",
       },
+      boxShadow: {
+        shadow: "box-shadow: 12px 10px 30px rgba(26, 43, 154, 0.2);",
+      },
     },
   },
   plugins: [],

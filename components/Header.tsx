@@ -1,23 +1,15 @@
-import { Fragment, useState } from "react";
-import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
-import {
-  ArrowPathIcon,
-  Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
+import { useState } from "react";
+import { Popover } from "@headlessui/react";
+import { Bars3Icon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 
-export default function Example() {
+export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <header className="bg-white">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between px-6 pt-12 lg:px-8"
+        className="flex items-center justify-between px-52 pt-12"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
