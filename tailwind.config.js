@@ -18,6 +18,7 @@ module.exports = {
         section: "#DFE7FB",
         text: "#6D7380",
         button: "#375BD2",
+        lightBlue: "#E7EDFF",
       },
       fontSize: {
         sm: "10px",

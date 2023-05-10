@@ -1,16 +1,18 @@
 /* eslint-disable @next/next/no-img-element */
 import Header from "@/components/Header";
-import QuickIntroduction from "@/components/QuickIntroduction";
+import SectionQuickIntroduction from "@/components/SectionQuickIntroduction";
 import SectionHighlights from "@/components/SectionHighlights";
-import TradeIntroduction from "@/components/TradeIntroduction";
+import SectionTradeIntroduction from "@/components/SectionTradeIntroduction";
+import SectionEcosystem from "@/components/SectionEcosystem";
 
 export default function Home() {
   return (
     <main>
       <Header />
-      <QuickIntroduction />
+      <SectionQuickIntroduction />
       <SectionHighlights />
-      <TradeIntroduction />
+      <SectionTradeIntroduction />
+      <SectionEcosystem />
     </main>
   );
 }

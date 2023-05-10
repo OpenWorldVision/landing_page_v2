@@ -1,7 +1,7 @@
 import Image from "next/image";
 import MainButton from "./MainButton";
 
-export default function QuickIntroduction() {
+export default function SectionQuickIntroduction() {
   return (
     <div className="flex flex-row px-60 py-40">
       <div className="w-2/5">
@@ -27,7 +27,7 @@ export default function QuickIntroduction() {
             leverage directly from your wallet
           </span>
         </div>
-        <MainButton title={"Launch App"} className={["px-10", "mt-4"]} />
+        <MainButton title={"Launch App"} className={"px-10 mt-4"} />
       </div>
       <div className="relative ml-28">
         <div className="absolute left-0 -top-8">

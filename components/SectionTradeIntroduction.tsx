@@ -5,7 +5,7 @@ import { fa1, faMoneyBillTransfer } from "@fortawesome/free-solid-svg-icons";
 import OutlineButton from "./OutlineButton";
 import MainImage from "./MainImage";
 
-export default function TradeIntroduction() {
+export default function SectionTradeIntroduction() {
   return (
     <div className="flex flex-row  justify-center px-40 py-20">
       <div className="flex-1 p-8">
@@ -23,7 +23,7 @@ export default function TradeIntroduction() {
             alt={"trade-free-icon"}
             width={64}
             height={64}
-            className="shadow-2xl shadow rounded-3xl mb-5"
+            className="shadow-2xl rounded-3xl mb-5"
           />
           <span className="text-title text-2xl font-bold leading-tight ">
             Zero price impact with minimum fee
