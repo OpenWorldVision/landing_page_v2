@@ -1,4 +1,5 @@
 import Image from "next/image";
+import MainButton from "./MainButton";
 
 export default function QuickIntroduction() {
   return (
@@ -26,12 +27,7 @@ export default function QuickIntroduction() {
             leverage directly from your wallet
           </span>
         </div>
-        <a
-          href="https://app.openworld.vision"
-          className="flex bg-button p-4 w-1/3 justify-center rounded-3xl mt-4"
-        >
-          <div className="text-white font-semibold">Launch App</div>
-        </a>
+        <MainButton title={"Launch App"} className={["px-10", "mt-4"]} />
       </div>
       <div className="relative ml-28">
         <div className="absolute left-0 -top-8">

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import MainImage from "./MainImage";
 
 export default function SectionHighlights() {
   return (
@@ -13,6 +14,11 @@ export default function SectionHighlights() {
               height={80}
             />
           </div>
+          <MainImage
+            src={"/wp/wp-content/uploads/2022/12/web-icon-01.svg"}
+            alt={"web-icon-01"}
+            className="absolute right-5"
+          />
           <div className="pt-8 text-title text-lg font-extrabold tracking-wider">
             Reduce Liquidation Risk
           </div>
@@ -37,6 +43,11 @@ export default function SectionHighlights() {
               height={80}
             />
           </div>
+          <MainImage
+            src={"/wp/wp-content/uploads/2022/12/web-icon-02.svg"}
+            alt={"web-icon-01"}
+            className="absolute right-5"
+          />
           <div className="pt-8 text-title text-lg font-extrabold tracking-wider">
             Minimum Trade Cost
           </div>
@@ -61,6 +72,11 @@ export default function SectionHighlights() {
               height={80}
             />
           </div>
+          <MainImage
+            src={"/wp/wp-content/uploads/2022/12/web-icon-03-02.svg"}
+            alt={"web-icon-01"}
+            className="absolute right-5"
+          />
           <div className="pt-8 text-title text-lg font-extrabold tracking-wider">
             Non-Custodial Trading
           </div>

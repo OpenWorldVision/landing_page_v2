@@ -1,4 +1,9 @@
 import Image from "next/image";
+import MainButton from "./MainButton";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fa1, faMoneyBillTransfer } from "@fortawesome/free-solid-svg-icons";
+import OutlineButton from "./OutlineButton";
+import MainImage from "./MainImage";
 
 export default function TradeIntroduction() {
   return (
@@ -37,20 +42,54 @@ export default function TradeIntroduction() {
         </div>
         <div className="flex flex-row justify-end p-8">
           <div className="flex-1">
-            <div className="flex bg-button p-4 w-1/2 justify-center rounded-3xl">
-              <div className="text-white font-semibold">Trade now</div>
-            </div>
+            <MainButton
+              title={"Trade Now"}
+              icon={
+                <FontAwesomeIcon
+                  icon={faMoneyBillTransfer}
+                  color={"white"}
+                  fontSize={14}
+                />
+              }
+            />
           </div>
           <div className="flex flex-1 justify-end">
-            <a className="flex border-2 h-9 border-button rounded-3xl mr-4 items-center">
-              <div className="text-sm px-2">Learn more</div>
-            </a>
-            <a className="flex border-2 border-button h-9 rounded-3xl items-center">
-              <div className="text-sm px-2">Join Discord</div>
-            </a>
+            <OutlineButton title={"Learn more"} className={["mr-4"]} />
+            <OutlineButton title={"Join Discord"} />
           </div>
         </div>
-        <div>1</div>
+        <div
+          style={{
+            background: "linear-gradient(90deg, #DDE2F0 0%, #F5F7FD 48.96%)",
+          }}
+          className="flex flex-row border-4 border-button rounded-3xl h-64"
+        >
+          <Image
+            src={"/wp/wp-content/uploads/2022/12/app-mobile.png"}
+            alt={"app-mobile"}
+            width="0"
+            height="0"
+            sizes="100vw"
+            className="w-auto h-auto mx-6"
+          />
+          <div className="flex flex-col justify-center align-justify ">
+            <span className="text-lg font-extrabold text-title">
+              Available On Mobile Soon!
+            </span>
+            <span className="text-14 text-content text-justify">
+              Available for{" "}
+              <span className="text-title font-medium">desktop</span> now,
+              comming to
+              <br />
+              <span className="text-title font-medium">Mobile</span> soon!
+            </span>
+            <MainImage
+              src={"/wp/wp-content/uploads/2022/08/Download-icon.png"}
+              alt={"Download-icon.png"}
+              className="w-36 h-16 self-center mt-5"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

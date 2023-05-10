@@ -14,6 +14,7 @@ module.exports = {
       },
       colors: {
         title: "#1A2B6B",
+        content: "#3D4556",
         section: "#DFE7FB",
         text: "#6D7380",
         button: "#375BD2",
@@ -25,6 +26,7 @@ module.exports = {
         xl: "28px",
         "2xl": "40px",
         "3xl": "55px",
+        14: "14px",
       },
       boxShadow: {
         shadow: "box-shadow: 12px 10px 30px rgba(26, 43, 154, 0.2);",
