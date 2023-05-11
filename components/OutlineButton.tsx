@@ -1,14 +1,13 @@
 import classNames from "classnames";
 import React, { ReactNode, useMemo } from "react";
 
-interface OutlineButtonProps {
+interface OutlineButtonProps extends React.DetailedHTMLProps<React.AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement> {
   title: string;
-  className?: classNames.ArgumentArray;
+  className?: string;
   icon?: ReactNode;
 }
-
 export default function OutlineButton(props: OutlineButtonProps) {
-  const { title, className } = props;
+  const { title, className, ...rest } = props;
 
   const buttonClass = useMemo(
     () =>
@@ -22,6 +21,12 @@ export default function OutlineButton(props: OutlineButtonProps) {
           "w-fit",
           "h-fit",
           "p-2",
+          "text-button",
+          "bg-white",
+          "hover:text-white",
+          "hover:bg-button",
+          "cursor-pointer",
+          "shadow-2xl",
         ],
         className
       ),
@@ -29,8 +34,8 @@ export default function OutlineButton(props: OutlineButtonProps) {
   );
 
   return (
-    <a className={buttonClass}>
-      <div className="text-sm px-2 text-button md:font-extrabold">{title}</div>
+    <a className={buttonClass} {...rest}>
+      <div className="text-sx px-2 font-extrabold">{title}</div>
     </a>
   );
 }

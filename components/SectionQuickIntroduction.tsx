@@ -3,7 +3,7 @@ import MainButton from "./MainButton";
 
 export default function SectionQuickIntroduction() {
   return (
-    <div className="flex flex-row px-60 py-40">
+    <div className="flex flex-row px-60 py-40 mt-7">
       <div className="w-2/5">
         <Image
           src="/wp/wp-content/uploads/2022/12/Frame-31-2.png"
@@ -27,7 +27,7 @@ export default function SectionQuickIntroduction() {
             leverage directly from your wallet
           </span>
         </div>
-        <MainButton title={"Launch App"} className={"px-10 mt-4"} />
+        <MainButton href="https://app.openworld.vision/" title={"Launch App"} className={"px-10 py-4 mt-4 text-lg"} />
       </div>
       <div className="relative ml-28">
         <div className="absolute left-0 -top-8">

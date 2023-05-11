@@ -21,13 +21,13 @@ module.exports = {
         lightBlue: "#E7EDFF",
       },
       fontSize: {
-        sm: "10px",
+        sx: "10px",
+        sm: "14px",
         base: "16px",
         lg: "20px",
         xl: "28px",
         "2xl": "40px",
         "3xl": "55px",
-        14: "14px",
       },
       boxShadow: {
         shadow: "box-shadow: 12px 10px 30px rgba(26, 43, 154, 0.2);",

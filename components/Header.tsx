@@ -7,9 +7,9 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white">
+    <header className="bg-white fixed top-0 w-full z-50">
       <nav
-        className="flex items-center justify-between px-52 pt-12"
+        className="flex items-center justify-between px-52 py-2"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -35,10 +35,10 @@ export default function Header() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a href="#">Docs</a>
+          <a href="https://wiki.openworld.vision/">Docs</a>
 
-          <a href="#">Launch App</a>
-          <a href="#">Buy Open</a>
+          <a href="http://app.openworld.vision/">Launch App</a>
+          <a href="https://pancakeswap.finance/swap?outputCurrency=0x27a339d9B59b21390d7209b78a839868E319301B">Buy Open</a>
         </Popover.Group>
       </nav>
     </header>

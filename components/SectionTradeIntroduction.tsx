@@ -43,6 +43,7 @@ export default function SectionTradeIntroduction() {
         <div className="flex flex-row justify-end p-8">
           <div className="flex-1">
             <MainButton
+              href="https://app.openworld.vision/#/trade"
               title={"Trade Now"}
               icon={
                 <FontAwesomeIcon
@@ -51,11 +52,19 @@ export default function SectionTradeIntroduction() {
                   fontSize={14}
                 />
               }
+              className="px-5 py-4 rounded-full font-medium text-sm"
             />
           </div>
           <div className="flex flex-1 justify-end">
-            <OutlineButton title={"Learn more"} className={["mr-4"]} />
-            <OutlineButton title={"Join Discord"} />
+            <OutlineButton
+              href="https://wiki.openworld.vision/"
+              title={"Learn more"}
+              className={"mr-4"}
+            />
+            <OutlineButton
+              href="https://discord.gg/zS2khZ4F7K"
+              title={"Join Discord"}
+            />
           </div>
         </div>
         <div
@@ -86,7 +95,8 @@ export default function SectionTradeIntroduction() {
             <MainImage
               src={"/wp/wp-content/uploads/2022/08/Download-icon.png"}
               alt={"Download-icon.png"}
-              className="w-36 h-16 self-center mt-5"
+              className="self-center mt-5"
+              style={{ objectFit: "contain", width: 152, height: 64 }}
             />
           </div>
         </div>

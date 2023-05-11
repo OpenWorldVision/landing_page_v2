@@ -6,7 +6,7 @@ export default function SectionHighlights() {
     <div className="bg-section px-0">
       <div className="flex flex-row bg-section justify-center px-52 py-20">
         <div className="relative box-content bg-white px-4 text-justify pt-4 pb-10 rounded-2xl">
-          <div className="absolute h-14 w-14 left-4 -top-12 shadow-2xl rounded-full w-20 h-20">
+          <div className="absolute left-4 -top-12 shadow-2xl rounded-full w-20 h-20">
             <Image
               src="wp/wp-content/uploads/2022/12/save-icon.svg"
               alt={"save-icon"}
