@@ -9,12 +9,11 @@ export default function Header() {
   return (
     <header className="bg-white fixed top-0 w-full z-50">
       <nav
-        className="flex items-center justify-between px-52 py-2"
+        className="flex items-center justify-between px-8 md:px-52 py-12"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
             <Image
               className="h-8 w-auto"
               src="/wp/wp-content/uploads/2022/12/opw-icon-logo.svg"
@@ -38,7 +37,9 @@ export default function Header() {
           <a href="https://wiki.openworld.vision/">Docs</a>
 
           <a href="http://app.openworld.vision/">Launch App</a>
-          <a href="https://pancakeswap.finance/swap?outputCurrency=0x27a339d9B59b21390d7209b78a839868E319301B">Buy Open</a>
+          <a href="https://pancakeswap.finance/swap?outputCurrency=0x27a339d9B59b21390d7209b78a839868E319301B">
+            Buy Open
+          </a>
         </Popover.Group>
       </nav>
     </header>

@@ -68,8 +68,8 @@ const listSmallImage = [
 
 export default function SectionPartners() {
   return (
-    <div className="flex flex-col px-72 py-20">
-      <span className="text-title text-2xl font-bold text-center">
+    <div className="flex flex-col md:px-72 md:py-20">
+      <span className="text-title md:text-2xl text-xl font-bold text-center mt-8 md:mt-0">
         Backers & Partners
       </span>
       <Image
@@ -79,28 +79,33 @@ export default function SectionPartners() {
         width={68}
         height={4}
       />
-      <div className="grid grid-cols-4 mt-20 mb-28">
+      <div className="grid md:grid-cols-4 grid-cols-2 md:mt-20 md:mb-28 mt-12">
         {listImage.map((item, index) => {
           return (
-            <MainImage
-              sizes="10vw"
-              key={index}
-              src={item.src}
-              alt={""}
-              className="p-6"
-            />
+            <div key={index} className="flex justify-center">
+              <MainImage
+                sizes="md:10vw"
+                src={item.src}
+                alt={""}
+                className="md:p-6 md:mx-0 my-4"
+              />
+            </div>
           );
         })}
       </div>
-      <div className="grid grid-flow-col">
+      <div className="grid md:grid-flow-col grid-cols-4 gap-2 justify-items-center">
         {listSmallImage.map((item, index) => {
           return (
-            <a key={index} href={item.href}>
+            <a
+              key={index}
+              href={item.href}
+              className="flex justify-center mt-8 md:mt-0"
+            >
               <MainImage
-                sizes={"2.2vw"}
+                sizes={"md:2.2vw"}
                 src={item.src}
                 alt={""}
-                className="p-6"
+                className="md:p-6 w-9"
               />
             </a>
           );

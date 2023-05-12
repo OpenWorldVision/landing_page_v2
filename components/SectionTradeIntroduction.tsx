@@ -7,8 +7,8 @@ import MainImage from "./MainImage";
 
 export default function SectionTradeIntroduction() {
   return (
-    <div className="flex flex-row  justify-center px-40 py-20">
-      <div className="flex-1 p-8">
+    <div className="flex flex-col md:flex-row justify-center px-4 py-20 md:px-40 md:py-20">
+      <div className="flex-1 md:p-8">
         <Image
           src="/wp/wp-content/uploads/2022/12/app-img-02-02.png"
           alt={"app-img-02-02"}
@@ -17,7 +17,7 @@ export default function SectionTradeIntroduction() {
         />
       </div>
       <div className="flex-1">
-        <div className="px-8">
+        <div className="md:px-8">
           <Image
             src="/wp/wp-content/uploads/2022/12/trade-free-icon.svg"
             alt={"trade-free-icon"}
@@ -40,7 +40,7 @@ export default function SectionTradeIntroduction() {
             impact, and up to 30x more buying power. No deposit.
           </span>
         </div>
-        <div className="flex flex-row justify-end p-8">
+        <div className="flex flex-row justify-end my-4 md:my-0 md:p-8">
           <div className="flex-1">
             <MainButton
               href="https://app.openworld.vision/#/trade"
@@ -81,7 +81,7 @@ export default function SectionTradeIntroduction() {
             sizes="100vw"
             className="w-auto h-auto mx-6"
           />
-          <div className="flex flex-col justify-center align-justify ">
+          {/* <div className="flex flex-col justify-center align-justify ">
             <span className="text-lg font-extrabold text-title">
               Available On Mobile Soon!
             </span>
@@ -98,7 +98,7 @@ export default function SectionTradeIntroduction() {
               className="self-center mt-5"
               style={{ objectFit: "contain", width: 152, height: 64 }}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

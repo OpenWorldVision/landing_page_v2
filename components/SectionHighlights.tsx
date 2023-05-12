@@ -3,9 +3,9 @@ import MainImage from "./MainImage";
 
 export default function SectionHighlights() {
   return (
-    <div className="bg-section px-0">
-      <div className="flex flex-row bg-section justify-center px-52 py-20">
-        <div className="relative box-content bg-white px-4 text-justify pt-4 pb-10 rounded-2xl">
+    <div className="bg-section px-0 w-full">
+      <div className="flex flex-col md:flex-row bg-section justify-center md:px-52 md:py-20">
+        <div className="relative box-content bg-white px-4 text-justify pt-4 pb-10 rounded-2xl mx-4 md:mx-0 mt-20">
           <div className="absolute left-4 -top-12 shadow-2xl rounded-full w-20 h-20">
             <Image
               src="wp/wp-content/uploads/2022/12/save-icon.svg"
@@ -34,7 +34,7 @@ export default function SectionHighlights() {
             anomalies and reduced liquidation risk for traders.
           </div>
         </div>
-        <div className="relative box-content bg-white px-4 text-justify pt-4 pb-10 rounded-2xl mx-8">
+        <div className="relative box-content bg-white px-4 text-justify pt-4 pb-10 rounded-2xl mx-4 md:mx-8 mt-20">
           <div className="absolute h-14 w-14 left-4 -top-12 shadow-2xl rounded-full w-20 h-20">
             <Image
               src="wp/wp-content/uploads/2022/12/Frame-37-svg-02.svg"
@@ -63,7 +63,7 @@ export default function SectionHighlights() {
             various fee everywhere. Zero price impact trades.
           </div>
         </div>
-        <div className="relative box-content bg-white px-4 text-justify pt-4 pb-10 rounded-2xl">
+        <div className="relative box-content bg-white px-4 text-justify pt-4 pb-10 rounded-2xl mx-4 md:mx-0 mt-20 mb-20 md:mb-0">
           <div className="absolute h-14 w-14 left-4 -top-12 shadow-2xl rounded-full w-20 h-20">
             <Image
               src="wp/wp-content/uploads/2022/12/Frame-37-svg-03.svg"

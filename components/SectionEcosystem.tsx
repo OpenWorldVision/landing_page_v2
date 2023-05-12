@@ -6,13 +6,13 @@ import MainButton from "./MainButton";
 export default function SectionEcosystem() {
   return (
     <div
-      className=" px-0"
+      className="px-0"
       style={{
         background:
           "linear-gradient(180deg, rgba(231, 237, 255, 0.3) 59.9%, rgba(248, 248, 248, 0.3) 100%)",
       }}
     >
-      <div className="flex flex-col px-72 py-20">
+      <div className="flex flex-col md:px-72 md:py-20 px-4">
         <Image
           src="/wp/wp-content/uploads/2022/12/ecosytem-icon.svg"
           alt={"trade-free-icon"}
@@ -21,9 +21,9 @@ export default function SectionEcosystem() {
           className="shadow-2xl rounded-3xl mb-5"
         />
         <span className="text-title text-2xl font-bold leading-tight ">
-          Two tokens create our
+          Dual Token
           <br />
-          ecosystem
+          Ecosystem
         </span>
         <Image
           src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
@@ -35,8 +35,8 @@ export default function SectionEcosystem() {
         <span className="text-base text-text">
           One token for governance, one token for providing liquidity.
         </span>
-        <div className="flex flex-row mt-12">
-          <div className="flex-1 bg-white mr-5 rounded-3xl p-5 relative overflow-hidden">
+        <div className="flex flex-col md:flex-row mt-12">
+          <div className="flex-1 bg-white md:mr-5 rounded-3xl p-5 relative overflow-hidden">
             <MainImage
               src={"/wp/wp-content/uploads/2023/05/bg_buy_open.svg"}
               alt={"bg_buy_open"}
@@ -46,7 +46,7 @@ export default function SectionEcosystem() {
               src={"/wp/wp-content/uploads/2022/12/OP-defi-logo-01.svg"}
               alt="OP-defi-logo-01"
             />
-            <div className="pt-4 px-6">
+            <div className="pt-4 md:px-6">
               <span className="text-sm font-semibold text-title">
                 {`Openworld is the utility and governance token. Accrues 30% of the
               platform's generated fees.`}
@@ -60,7 +60,7 @@ export default function SectionEcosystem() {
               }
             />
           </div>
-          <div className="flex-1 bg-white rounded-3xl p-5 relative overflow-hidden">
+          <div className="flex-1 bg-white rounded-3xl p-5 relative overflow-hidden mt-8 md:mt-0">
             <MainImage
               src={"/wp/wp-content/uploads/2023/05/bg_buy_oap.svg"}
               alt={"bg_buy_oap"}
@@ -84,7 +84,7 @@ export default function SectionEcosystem() {
             />
           </div>
         </div>
-        <div className="flex mt-24">
+        <div className="flex flex-col md:flex-row mt-24">
           <div className="flex flex-col justify-center">
             <span className="text-title text-xl font-bold leading-tight ">
               Two tokens create
@@ -109,13 +109,12 @@ export default function SectionEcosystem() {
           <MainImage
             src={"/wp/wp-content/uploads/2023/04/open-chain.png"}
             alt={"open-chain"}
-            className="mx-10"
-            style={{ width: 480 }}
+            className="md:mx-10 mx-4 md:w-96"
           />
           <MainButton
             href="https://app.openworld.vision/"
             title={"Launch App"}
-            className="self-center px-6 py-4"
+            className="self-center px-6 py-4 my-3 md:my-0"
           />
         </div>
         <div className="flex flex-col mt-24">
@@ -133,7 +132,7 @@ export default function SectionEcosystem() {
             We believe everyone should have access to open & powerful financial
             tools.
           </span>
-          <div className="flex flex-1 mr-5 bg-lightBlue mt-4 rounded-3xl">
+          <div className="flex flex-col md:flex-row flex-1 md:mr-5 bg-lightBlue mt-4 rounded-3xl">
             <div className="flex flex-1 flex-col text-center py-5 relative">
               <span className="text-base text-title font-medium">
                 Trading Volume
@@ -152,7 +151,9 @@ export default function SectionEcosystem() {
             </div>
             <div className="flex flex-1 flex-col text-center py-5 relative">
               <span className="text-base text-title font-medium">TVL</span>
-              <span className="text-xl text-button font-extrabold">299,865</span>
+              <span className="text-xl text-button font-extrabold">
+                299,865
+              </span>
               <span className="text-base text-title">LAST 24H</span>
               <div className="h-full w-px bg-white absolute right-0 bottom-0" />
             </div>
@@ -160,7 +161,9 @@ export default function SectionEcosystem() {
               <span className="text-base text-title font-medium">
                 Accumulated trading
               </span>
-              <span className="text-xl text-button font-extrabold">100,948</span>
+              <span className="text-xl text-button font-extrabold">
+                100,948
+              </span>
               <span className="text-base text-title">LAST 24H</span>
               <div className="h-full w-px bg-white absolute right-0 bottom-0" />
             </div>
@@ -168,9 +171,7 @@ export default function SectionEcosystem() {
               <span className="text-base text-title font-medium">
                 Open Interest
               </span>
-              <span className="text-xl text-button font-extrabold">
-                $943
-              </span>
+              <span className="text-xl text-button font-extrabold">$943</span>
               <span className="text-base text-title">LAST 24H</span>
             </div>
           </div>
