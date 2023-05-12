@@ -93,20 +93,15 @@ export default function SectionPartners() {
           );
         })}
       </div>
-      <div className="grid md:grid-flow-col grid-cols-4 gap-2 justify-items-center">
+      <div className="md:flex md:flex-1 md:justify-around grid grid-cols-4 mt-8 md:mt-0">
         {listSmallImage.map((item, index) => {
           return (
             <a
               key={index}
               href={item.href}
-              className="flex justify-center mt-8 md:mt-0"
+              className="md:px-6 flex justify-center"
             >
-              <MainImage
-                sizes={"md:2.2vw"}
-                src={item.src}
-                alt={""}
-                className="md:p-6 w-9"
-              />
+              <img src={item.src} alt={""} className="md:mb-0 mb-8 w-9" />
             </a>
           );
         })}
