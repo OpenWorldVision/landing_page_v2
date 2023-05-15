@@ -62,7 +62,7 @@
 			
 		<div class="masonry-block gallery-item card cursor-as-pointer vc_col-lg-6 vc_col-md-6 vc_col-xs-12 -with-overlay -img-scale" data-gallery-item="0" data-lazy-item="" data-lazy-scope="gallery">
 			<div class="image-holder cursor-plus" data-cursor-class="cursor-link"  data-tilt=true data-tilt-perspective=6000>
-			    <img class="gimg hidden-image" src="/wp/wp-content/uploads/2021/12/oh__img104-scaled-1.jpeg" alt="Alt">
+			    <img class="gimg hidden-image" src="wp/wp-content/uploads/2021/12/oh__img104-scaled-1.jpeg" alt="Alt">
 
 			    				    <div class="overlay-details -fade-up">
 				        <div class="heading">
@@ -85,7 +85,7 @@
 			
 		<div class="masonry-block gallery-item card cursor-as-pointer vc_col-lg-6 vc_col-md-6 vc_col-xs-12 -with-overlay -img-scale" data-gallery-item="1" data-lazy-item="" data-lazy-scope="gallery">
 			<div class="image-holder cursor-plus" data-cursor-class="cursor-link"  data-tilt=true data-tilt-perspective=6000>
-			    <img class="gimg hidden-image" src="/wp/wp-content/uploads/2021/12/oh__gallery02.jpeg" alt="Alt">
+			    <img class="gimg hidden-image" src="wp/wp-content/uploads/2021/12/oh__gallery02.jpeg" alt="Alt">
 
 			    				    <div class="overlay-details -fade-up">
 				        <div class="heading">
@@ -108,7 +108,7 @@
 			
 		<div class="masonry-block gallery-item card cursor-as-pointer vc_col-lg-6 vc_col-md-6 vc_col-xs-12 -with-overlay -img-scale" data-gallery-item="2" data-lazy-item="" data-lazy-scope="gallery">
 			<div class="image-holder cursor-plus" data-cursor-class="cursor-link"  data-tilt=true data-tilt-perspective=6000>
-			    <img class="gimg hidden-image" src="/wp/wp-content/uploads/2021/12/oh__gallery04.jpeg" alt="Alt">
+			    <img class="gimg hidden-image" src="wp/wp-content/uploads/2021/12/oh__gallery04.jpeg" alt="Alt">
 
 			    				    <div class="overlay-details -fade-up">
 				        <div class="heading">
@@ -131,7 +131,7 @@
 			
 		<div class="masonry-block gallery-item card cursor-as-pointer vc_col-lg-6 vc_col-md-6 vc_col-xs-12 -with-overlay -img-scale" data-gallery-item="3" data-lazy-item="" data-lazy-scope="gallery">
 			<div class="image-holder cursor-plus" data-cursor-class="cursor-link"  data-tilt=true data-tilt-perspective=6000>
-			    <img class="gimg hidden-image" src="/wp/wp-content/uploads/2021/12/oh__img103-scaled-1.jpeg" alt="Alt">
+			    <img class="gimg hidden-image" src="wp/wp-content/uploads/2021/12/oh__img103-scaled-1.jpeg" alt="Alt">
 
 			    				    <div class="overlay-details -fade-up">
 				        <div class="heading">
@@ -180,7 +180,7 @@
 		 data-compare-position="0.5" 
 		 data-compare-orientation="horizontal">
 		<img src="" srcset="" sizes="" alt="Before"  />
-		<img src="/wp/wp-content/uploads/2022/03/SingleProject__Type6.2.jpeg" srcset="" sizes="(max-width: 2000px) 100vw, 2000px" alt="After"  />
+		<img src="wp/wp-content/uploads/2022/03/SingleProject__Type6.2.jpeg" srcset="" sizes="(max-width: 2000px) 100vw, 2000px" alt="After"  />
     </div>
 </div></div></div></div></div><div class="vc_empty_space  clb__section_spacer"   style="height: 10vh"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid clb__dark_section vc_custom_1627565112734 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space  clb__section_spacer"   style="height: 10vh"><span class="vc_empty_space_inner"></span></div><div class="ohio-widget heading -left" id="ohio-custom-641495c91468e" >
 	
@@ -207,7 +207,7 @@
 	<div  class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1648024774805">
 		
 		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="2400" height="1371" src="/wp/wp-content/uploads/2021/12/Demo23_Home.jpeg" class="vc_single_image-img attachment-full" alt="" decoding="async" title="Demo23_Home" /></div>
+			<div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="2400" height="1371" src="wp/wp-content/uploads/2021/12/Demo23_Home.jpeg" class="vc_single_image-img attachment-full" alt="" decoding="async" title="Demo23_Home" /></div>
 		</figure>
 	</div>
 </div><div class="tabs-content-item" data-title="User Experience"  id="ohio-custom-641495c916093">
@@ -215,7 +215,7 @@
 	<div  class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1648032452518">
 		
 		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="2000" height="1143" src="/wp/wp-content/uploads/2022/03/Demo31_Home.jpeg" class="vc_single_image-img attachment-full" alt="" decoding="async" title="Demo31_Home" /></div>
+			<div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="2000" height="1143" src="wp/wp-content/uploads/2022/03/Demo31_Home.jpeg" class="vc_single_image-img attachment-full" alt="" decoding="async" title="Demo31_Home" /></div>
 		</figure>
 	</div>
 </div><div class="tabs-content-item" data-title="Web Interface"  id="ohio-custom-641495c916964">
@@ -231,7 +231,7 @@
 	<div  class="wpb_single_image wpb_content_element vc_align_left">
 		
 		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="2000" height="1143" src="/wp/wp-content/uploads/2022/03/SingleProject__Type6.2.jpeg" class="vc_single_image-img attachment-full" alt="" decoding="async" title="SingleProject__Type6.2" /></div>
+			<div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="2000" height="1143" src="wp/wp-content/uploads/2022/03/SingleProject__Type6.2.jpeg" class="vc_single_image-img attachment-full" alt="" decoding="async" title="SingleProject__Type6.2" /></div>
 		</figure>
 	</div>
 </div>    </div>
@@ -258,7 +258,7 @@
 	<div  class="wpb_single_image wpb_content_element vc_align_left">
 		
 		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="2400" height="1371" src="/wp/wp-content/uploads/2021/12/Demo28_Home.jpeg" class="vc_single_image-img attachment-full" alt="" decoding="async" title="Demo28_Home" /></div>
+			<div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="2400" height="1371" src="wp/wp-content/uploads/2021/12/Demo28_Home.jpeg" class="vc_single_image-img attachment-full" alt="" decoding="async" title="Demo28_Home" /></div>
 		</figure>
 	</div>
 	
@@ -268,7 +268,7 @@
 	<div  class="wpb_single_image wpb_content_element vc_align_left">
 		
 		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="2000" height="1143" src="/wp/wp-content/uploads/2022/03/Demo31_Home.jpeg" class="vc_single_image-img attachment-full" alt="" decoding="async" title="Demo31_Home" /></div>
+			<div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="2000" height="1143" src="wp/wp-content/uploads/2022/03/Demo31_Home.jpeg" class="vc_single_image-img attachment-full" alt="" decoding="async" title="Demo31_Home" /></div>
 		</figure>
 	</div>
 	
@@ -278,7 +278,7 @@
 	<div  class="wpb_single_image wpb_content_element vc_align_left">
 		
 		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="2400" height="1371" src="/wp/wp-content/uploads/2021/12/Demo29_Home.jpeg" class="vc_single_image-img attachment-full" alt="" decoding="async" title="Demo29_Home" /></div>
+			<div class="vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"><img width="2400" height="1371" src="wp/wp-content/uploads/2021/12/Demo29_Home.jpeg" class="vc_single_image-img attachment-full" alt="" decoding="async" title="Demo29_Home" /></div>
 		</figure>
 	</div>
 	

@@ -32,7 +32,7 @@ export default function SectionEcosystem() {
     >
       <div className="flex flex-col md:px-72 md:py-20 px-4">
         <Image
-          src="/wp/wp-content/uploads/2022/12/ecosytem-icon.svg"
+          src="wp/wp-content/uploads/2022/12/ecosytem-icon.svg"
           alt={"trade-free-icon"}
           width={64}
           height={64}
@@ -44,7 +44,7 @@ export default function SectionEcosystem() {
           Ecosystem
         </span>
         <Image
-          src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
+          src="wp/wp-content/uploads/2022/12/Rectangle-27.svg"
           className="my-2"
           alt={"Rectangle-27"}
           width={68}
@@ -110,7 +110,7 @@ export default function SectionEcosystem() {
               our ecosystem
             </span>
             <Image
-              src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
+              src="wp/wp-content/uploads/2022/12/Rectangle-27.svg"
               className="my-2"
               alt={"Rectangle-27"}
               width={68}
@@ -140,7 +140,7 @@ export default function SectionEcosystem() {
             Trusted by over 55,000 traders
           </span>
           <Image
-            src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
+            src="wp/wp-content/uploads/2022/12/Rectangle-27.svg"
             className="my-2"
             alt={"Rectangle-27"}
             width={68}
