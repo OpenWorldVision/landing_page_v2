@@ -73,7 +73,7 @@ export default function SectionPartners() {
         Backers & Partners
       </span>
       <Image
-        src="wp/wp-content/uploads/2022/12/Rectangle-27.svg"
+        src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
         className="self-center"
         alt={"Rectangle-27"}
         width={68}
