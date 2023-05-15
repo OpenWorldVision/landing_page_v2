@@ -81,7 +81,7 @@ export default function SectionTradeIntroduction() {
             sizes="100vw"
             className="w-auto h-auto mx-6"
           />
-          {/* <div className="flex flex-col justify-center align-justify ">
+          <div className="flex flex-col justify-center align-justify ">
             <span className="text-lg font-extrabold text-title">
               Available On Mobile Soon!
             </span>
@@ -98,7 +98,7 @@ export default function SectionTradeIntroduction() {
               className="self-center mt-5"
               style={{ objectFit: "contain", width: 152, height: 64 }}
             />
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
