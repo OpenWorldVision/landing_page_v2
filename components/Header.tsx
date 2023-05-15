@@ -2,12 +2,13 @@ import { useState } from "react";
 import { Popover } from "@headlessui/react";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import Image from "next/image";
+import ScrollIndicator from "./ScrollIndicator";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white fixed top-0 w-full z-50">
+    <header className="bg-white fixed top-0 w-full z-10">
       <nav
         className="flex items-center justify-between px-8 md:px-52 py-12"
         aria-label="Global"
