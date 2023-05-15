@@ -7,14 +7,14 @@ export default function SectionHighlights() {
       <div className="flex flex-col md:flex-row bg-section justify-center md:px-52 md:py-20">
         <div className="relative box-content bg-white px-4 text-justify pt-4 pb-10 rounded-2xl mx-4 md:mx-0 mt-20">
           <div className="absolute left-4 -top-12 shadow-2xl rounded-full w-20 h-20">
-            <Image
+            <img
               src="/wp/wp-content/uploads/2022/12/save-icon.svg"
               alt={"save-icon"}
               width={80}
               height={80}
             />
           </div>
-          <MainImage
+          <img
             src={"/wp/wp-content/uploads/2022/12/web-icon-01.svg"}
             alt={"web-icon-01"}
             className="absolute right-5"
@@ -22,7 +22,7 @@ export default function SectionHighlights() {
           <div className="pt-8 text-title text-lg font-extrabold tracking-wider">
             Reduce Liquidation Risk
           </div>
-          <Image
+          <img
             src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
             className="mt-2 mb-4"
             alt={"Rectangle-27"}
@@ -36,14 +36,14 @@ export default function SectionHighlights() {
         </div>
         <div className="relative box-content bg-white px-4 text-justify pt-4 pb-10 rounded-2xl mx-4 md:mx-8 mt-20">
           <div className="absolute h-14 w-14 left-4 -top-12 shadow-2xl rounded-full w-20 h-20">
-            <Image
+            <img
               src="/wp/wp-content/uploads/2022/12/Frame-37-svg-02.svg"
               alt={"Frame-37-svg-02"}
               width={80}
               height={80}
             />
           </div>
-          <MainImage
+          <img
             src={"/wp/wp-content/uploads/2022/12/web-icon-02.svg"}
             alt={"web-icon-01"}
             className="absolute right-5"
@@ -51,7 +51,7 @@ export default function SectionHighlights() {
           <div className="pt-8 text-title text-lg font-extrabold tracking-wider">
             Minimum Trade Cost
           </div>
-          <Image
+          <img
             src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
             className="my-2"
             alt={"Rectangle-27"}
@@ -65,14 +65,14 @@ export default function SectionHighlights() {
         </div>
         <div className="relative box-content bg-white px-4 text-justify pt-4 pb-10 rounded-2xl mx-4 md:mx-0 mt-20 mb-20 md:mb-0">
           <div className="absolute h-14 w-14 left-4 -top-12 shadow-2xl rounded-full w-20 h-20">
-            <Image
+            <img
               src="/wp/wp-content/uploads/2022/12/Frame-37-svg-03.svg"
               alt={"Frame-37-svg-03"}
               width={80}
               height={80}
             />
           </div>
-          <MainImage
+          <img
             src={"/wp/wp-content/uploads/2022/12/web-icon-03-02.svg"}
             alt={"web-icon-01"}
             className="absolute right-5"
@@ -80,7 +80,7 @@ export default function SectionHighlights() {
           <div className="pt-8 text-title text-lg font-extrabold tracking-wider">
             Non-Custodial Trading
           </div>
-          <Image
+          <img
             src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
             className="my-2"
             alt={"Rectangle-27"}

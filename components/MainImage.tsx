@@ -8,7 +8,7 @@ export default function MainImage(props: ImageProps) {
   const classImage = classNames(["w-auto", "h-auto", className]);
 
   return (
-    <Image
+    <img
       className={classImage}
       alt={alt}
       width="0"

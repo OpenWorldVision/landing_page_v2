@@ -72,7 +72,7 @@ export default function SectionPartners() {
       <span className="text-title md:text-2xl text-xl font-bold text-center mt-8 md:mt-0">
         Backers & Partners
       </span>
-      <Image
+      <img
         src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
         className="self-center"
         alt={"Rectangle-27"}
@@ -83,11 +83,11 @@ export default function SectionPartners() {
         {listImage.map((item, index) => {
           return (
             <div key={index} className="flex justify-center">
-              <MainImage
+              <img
                 sizes="md:10vw"
                 src={item.src}
                 alt={""}
-                className="md:p-6 md:mx-0 my-4"
+                className="md:p-6 md:mx-0 my-4 scale-75	"
               />
             </div>
           );

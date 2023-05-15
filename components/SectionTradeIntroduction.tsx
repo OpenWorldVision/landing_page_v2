@@ -9,7 +9,7 @@ export default function SectionTradeIntroduction() {
   return (
     <div className="flex flex-col md:flex-row justify-center px-4 py-20 md:px-40 md:py-20">
       <div className="flex-1 md:p-8">
-        <Image
+        <img
           src="/wp/wp-content/uploads/2022/12/app-img-02-02.png"
           alt={"app-img-02-02"}
           width={1024}
@@ -18,7 +18,7 @@ export default function SectionTradeIntroduction() {
       </div>
       <div className="flex-1">
         <div className="md:px-8">
-          <Image
+          <img
             src="/wp/wp-content/uploads/2022/12/trade-free-icon.svg"
             alt={"trade-free-icon"}
             width={64}
@@ -28,7 +28,7 @@ export default function SectionTradeIntroduction() {
           <span className="text-title text-2xl font-bold leading-tight ">
             Zero price impact with minimum fee
           </span>
-          <Image
+          <img
             src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
             className="my-2"
             alt={"Rectangle-27"}
@@ -73,7 +73,7 @@ export default function SectionTradeIntroduction() {
           }}
           className="flex flex-row border-4 border-button rounded-3xl h-64"
         >
-          <Image
+          <img
             src={"/wp/wp-content/uploads/2022/12/app-mobile.png"}
             alt={"app-mobile"}
             width="0"
@@ -92,7 +92,7 @@ export default function SectionTradeIntroduction() {
               <br />
               <span className="text-title font-medium">Mobile</span> soon!
             </span>
-            <MainImage
+            <img
               src={"/wp/wp-content/uploads/2022/08/Download-icon.png"}
               alt={"Download-icon.png"}
               className="self-center mt-5"

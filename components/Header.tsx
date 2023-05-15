@@ -14,7 +14,7 @@ export default function Header() {
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <Image
+            <img
               className="h-8 w-auto"
               src="/wp/wp-content/uploads/2022/12/opw-icon-logo.svg"
               alt="logo"

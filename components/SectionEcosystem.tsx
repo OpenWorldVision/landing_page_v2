@@ -31,7 +31,7 @@ export default function SectionEcosystem() {
       }}
     >
       <div className="flex flex-col md:px-72 md:py-20 px-4">
-        <Image
+        <img
           src="/wp/wp-content/uploads/2022/12/ecosytem-icon.svg"
           alt={"trade-free-icon"}
           width={64}
@@ -43,7 +43,7 @@ export default function SectionEcosystem() {
           <br />
           Ecosystem
         </span>
-        <Image
+        <img
           src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
           className="my-2"
           alt={"Rectangle-27"}
@@ -55,12 +55,12 @@ export default function SectionEcosystem() {
         </span>
         <div className="flex flex-col md:flex-row mt-12">
           <div className="flex-1 bg-white md:mr-5 rounded-3xl p-5 relative overflow-hidden">
-            <MainImage
+            <img
               src={"/wp/wp-content/uploads/2023/05/bg_buy_open.svg"}
               alt={"bg_buy_open"}
               className="absolute h-full right-0 bottom-0"
             />
-            <MainImage
+            <img
               src={"/wp/wp-content/uploads/2022/12/OP-defi-logo-01.svg"}
               alt="OP-defi-logo-01"
             />
@@ -79,12 +79,12 @@ export default function SectionEcosystem() {
             />
           </div>
           <div className="flex-1 bg-white rounded-3xl p-5 relative overflow-hidden mt-8 md:mt-0">
-            <MainImage
+            <img
               src={"/wp/wp-content/uploads/2023/05/bg_buy_oap.svg"}
               alt={"bg_buy_oap"}
               className="absolute h-full right-0 bottom-0 font-extrabold"
             />
-            <MainImage
+            <img
               src={"/wp/wp-content/uploads/2023/01/OAP-Logo.svg"}
               alt="OP-defi-logo-01"
               style={{ height: 32 }}
@@ -109,7 +109,7 @@ export default function SectionEcosystem() {
               <br />
               our ecosystem
             </span>
-            <Image
+            <img
               src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
               className="my-2"
               alt={"Rectangle-27"}
@@ -124,7 +124,7 @@ export default function SectionEcosystem() {
               Chain & Arbitrum Chain.
             </span>
           </div>
-          <MainImage
+          <img
             src={"/wp/wp-content/uploads/2023/04/open-chain.png"}
             alt={"open-chain"}
             className="md:mx-10 mx-4 md:w-96"
@@ -139,7 +139,7 @@ export default function SectionEcosystem() {
           <span className="text-title text-xl font-bold leading-tight ">
             Trusted by over 55,000 traders
           </span>
-          <Image
+          <img
             src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
             className="my-2"
             alt={"Rectangle-27"}
