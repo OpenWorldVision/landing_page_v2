@@ -20,14 +20,13 @@ const ScrollIndicator = memo(() => {
       onClick={() => {
         window.scrollTo({ top: 0, behavior: "smooth" });
       }}
+      className="hidden md:flex md:fixed"
       style={{
-        position: "fixed",
         left: 10,
         top: "50%",
         transform: "translateY(-50%)",
         alignItems: "center",
         justifyContent: "center",
-        display: "flex",
         flexDirection: "column",
         zIndex: 20,
         opacity: progressHeight > 10 ? 1 : 0,

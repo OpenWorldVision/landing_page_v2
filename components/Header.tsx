@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <header className="bg-white fixed top-0 w-full z-10">
       <nav
-        className="flex items-center justify-between px-8 md:px-52 py-12"
+        className="flex items-center justify-between px-8 md:px-52 py-6 md:py-8"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">

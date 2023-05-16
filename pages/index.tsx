@@ -9,7 +9,7 @@ import ScrollIndicator from "@/components/ScrollIndicator";
 
 export default function Home() {
   return (
-    <div className="relative">
+    <div className="relative flex flex-col items-center">
       <Header />
       <SectionQuickIntroduction />
       <SectionHighlights />

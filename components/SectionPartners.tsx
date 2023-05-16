@@ -68,7 +68,7 @@ const listSmallImage = [
 
 export default function SectionPartners() {
   return (
-    <div className="flex flex-col md:px-72 md:py-20">
+    <div className="flex flex-col md:py-20 max-w-screen-xl px-10">
       <span className="text-title md:text-2xl text-xl font-bold text-center mt-8 md:mt-0">
         Backers & Partners
       </span>

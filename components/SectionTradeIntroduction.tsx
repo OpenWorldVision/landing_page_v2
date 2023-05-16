@@ -7,7 +7,7 @@ import MainImage from "./MainImage";
 
 export default function SectionTradeIntroduction() {
   return (
-    <div className="flex flex-col md:flex-row justify-center px-4 py-20 md:px-40 md:py-20">
+    <div className="flex flex-col md:flex-row justify-center py-20 max-w-screen-xl mx-10 md:py-20">
       <div className="flex-1 md:p-8">
         <img
           src="/wp/wp-content/uploads/2022/12/app-img-02-02.png"
@@ -40,7 +40,7 @@ export default function SectionTradeIntroduction() {
             impact, and up to 30x more buying power. No deposit.
           </span>
         </div>
-        <div className="flex flex-row justify-end my-4 md:my-0 md:p-8">
+        <div className="flex my-4 flex-col md:my-0 md:p-8 xl:flex-row">
           <div className="flex-1">
             <MainButton
               href="https://app.openworld.vision/#/trade"
@@ -55,7 +55,7 @@ export default function SectionTradeIntroduction() {
               className="px-5 py-4 rounded-full font-medium text-sm"
             />
           </div>
-          <div className="flex flex-1 justify-end">
+          <div className="flex flex-1 xl:justify-end mt-2 xl:mt-0">
             <OutlineButton
               href="https://wiki.openworld.vision/"
               title={"Learn more"}
@@ -71,17 +71,14 @@ export default function SectionTradeIntroduction() {
           style={{
             background: "linear-gradient(90deg, #DDE2F0 0%, #F5F7FD 48.96%)",
           }}
-          className="flex flex-row border-4 border-button rounded-3xl h-64"
+          className="flex border-4 border-button rounded-3xl flex-col items-center sm:items-start sm:flex-row"
         >
           <img
             src={"/wp/wp-content/uploads/2022/12/app-mobile.png"}
             alt={"app-mobile"}
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="w-auto h-auto mx-6"
+            className="mx-6 w-5/6 max-h-80 sm:w-3/6 md:max-h-64"
           />
-          <div className="flex flex-col justify-center align-justify ">
+          <div className="flex flex-col justify-center align-justify mb-2 pt-4 px-4 border-t-4 border-button sm:mr-3 sm:pt-0 sm:px-0 sm:border-t-0 sm:self-center">
             <span className="text-lg font-extrabold text-title">
               Available On Mobile Soon!
             </span>
@@ -95,8 +92,7 @@ export default function SectionTradeIntroduction() {
             <img
               src={"/wp/wp-content/uploads/2022/08/Download-icon.png"}
               alt={"Download-icon.png"}
-              className="self-center mt-5"
-              style={{ objectFit: "contain", width: 152, height: 64 }}
+              className="self-center mt-5 w-3/5"
             />
           </div>
         </div>

@@ -24,13 +24,13 @@ export default function SectionEcosystem() {
 
   return (
     <div
-      className="px-0"
+      className="px-0 w-full flex justify-center"
       style={{
         background:
           "linear-gradient(180deg, rgba(231, 237, 255, 0.3) 59.9%, rgba(248, 248, 248, 0.3) 100%)",
       }}
     >
-      <div className="flex flex-col md:px-72 md:py-20 px-4">
+      <div className="flex flex-col md:py-20 max-w-screen-xl px-10">
         <img
           src="/wp/wp-content/uploads/2022/12/ecosytem-icon.svg"
           alt={"trade-free-icon"}
@@ -102,12 +102,10 @@ export default function SectionEcosystem() {
             />
           </div>
         </div>
-        <div className="flex flex-col md:flex-row mt-24">
-          <div className="flex flex-col justify-center">
-            <span className="text-title text-xl font-bold leading-tight ">
-              Two tokens create
-              <br />
-              our ecosystem
+        <div className="flex flex-col md:flex-row mt-24 xl:w-11/12">
+          <div className="flex flex-col justify-center md:max-w-xs ">
+            <span className="text-title text-xl font-bold leading-tight">
+              Two tokens create our ecosystem
             </span>
             <img
               src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
@@ -117,18 +115,16 @@ export default function SectionEcosystem() {
               height={4}
             />
             <span className="text-base text-text">
-              Openworld is currently live on
-              <br />
-              Binance Smart Chain, Harmony
-              <br />
-              Chain & Arbitrum Chain.
+              Openworld is currently live on Binance Smart Chain, Harmony Chain
+              & Arbitrum Chain.
             </span>
           </div>
-          <img
-            src={"/wp/wp-content/uploads/2023/04/open-chain.png"}
-            alt={"open-chain"}
-            className="md:mx-10 mx-4 md:w-96"
-          />
+          <div className="flex flex-1 justify-center mx-8 mt-2 md:mt-0">
+            <img
+              src={"/wp/wp-content/uploads/2023/04/open-chain.png"}
+              alt={"open-chain"}
+            />
+          </div>
           <MainButton
             href="https://app.openworld.vision/"
             title={"Launch App"}
@@ -159,19 +155,19 @@ export default function SectionEcosystem() {
                 $11,063
               </span>
               <span className="text-base text-title">LAST 24H</span>
-              <div className="h-full w-px bg-white absolute right-0 bottom-0" />
+              <div className="bg-white absolute bottom-0 right-0 h-px w-full md:h-full md:w-px " />
             </div>
             <div className="flex flex-1 flex-col text-center py-5 relative">
               <span className="text-base text-title font-medium">Trades</span>
               <span className="text-xl text-button font-extrabold">12</span>
               <span className="text-base text-title">LAST 24H</span>
-              <div className="h-full w-px bg-white absolute right-0 bottom-0" />
+              <div className="bg-white absolute bottom-0 right-0 h-px w-full md:h-full md:w-px " />
             </div>
             <div className="flex flex-1 flex-col text-center py-5 relative">
               <span className="text-base text-title font-medium">TVL</span>
               <span className="text-xl text-button font-extrabold">{tvl}</span>
               <span className="text-base text-title">LAST 24H</span>
-              <div className="h-full w-px bg-white absolute right-0 bottom-0" />
+              <div className="bg-white absolute bottom-0 right-0 h-px w-full md:h-full md:w-px " />
             </div>
             <div className="flex flex-1 flex-col text-center py-5 relative">
               <span className="text-base text-title font-medium">
@@ -181,7 +177,7 @@ export default function SectionEcosystem() {
                 100,948
               </span>
               <span className="text-base text-title">LAST 24H</span>
-              <div className="h-full w-px bg-white absolute right-0 bottom-0" />
+              <div className="bg-white absolute bottom-0 right-0 h-px w-full md:h-full md:w-px " />
             </div>
             <div className="flex flex-1 flex-col text-center py-5 relative">
               <span className="text-base text-title font-medium">
