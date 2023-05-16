@@ -1,5 +1,6 @@
 import Image from "next/image";
 import MainButton from "./MainButton";
+import MigrateToken from "./MigrateToken";
 
 export default function SectionQuickIntroduction() {
   return (

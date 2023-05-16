@@ -19,6 +19,8 @@ module.exports = {
         text: "#6D7380",
         button: "#375BD2",
         lightBlue: "#E7EDFF",
+        tips: '#FFCD99',
+        bgTips: '#FFCD9930'
       },
       fontSize: {
         sx: "10px",
