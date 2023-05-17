@@ -3,25 +3,24 @@ import React, { useEffect, useState } from "react";
 import MainImage from "./MainImage";
 import MainButton from "./MainButton";
 import { formatAmount } from "@/utils/numbers";
+import { GetServerSideProps } from "next";
 
-export default function SectionEcosystem() {
-  const [tvl, setTVL] = useState("0");
-
-  async function getData() {
-    const res = await fetch("https://keeper-bot.openworld.vision/api/v1/tvl");
-    if (!res.ok) {
-      throw new Error("Failed to fetch data");
-    }
-
-    return res.json();
+export const fetchData: GetServerSideProps<any> = async () => {
+  const res = await fetch("https://keeper-bot.openworld.vision/api/v1/tvl");
+  if (!res.ok) {
+    throw new Error("Failed to fetch data");
   }
 
-  useEffect(() => {
-    getData().then((data) => {
-      setTVL(formatAmount(data?.tvl, 30, 0, true));
-    });
-  }, []);
+  const response = await res.json();
+  const data = formatAmount(response?.tvl, 30, 0, true);
+  return {
+    props: {
+      data,
+    },
+  };
+};
 
+export default function SectionEcosystem({ data }: { data: any }) {
   return (
     <div
       className="px-0 w-full flex justify-center"
@@ -165,7 +164,7 @@ export default function SectionEcosystem() {
             </div>
             <div className="flex flex-1 flex-col text-center py-5 relative">
               <span className="text-base text-title font-medium">TVL</span>
-              <span className="text-xl text-button font-extrabold">{tvl}</span>
+              <span className="text-xl text-button font-extrabold">{data}</span>
               <span className="text-base text-title">LAST 24H</span>
               <div className="bg-white absolute bottom-0 right-0 h-px w-full md:h-full md:w-px " />
             </div>
