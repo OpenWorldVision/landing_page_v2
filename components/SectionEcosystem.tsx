@@ -36,7 +36,7 @@ export default function SectionEcosystem() {
           alt={"trade-free-icon"}
           width={64}
           height={64}
-          className="shadow-2xl rounded-3xl mb-5"
+          className="shadow-2xl rounded-3xl mb-5 mt-10 md:mt-0"
         />
         <span className="text-title text-2xl font-bold leading-tight ">
           Dual Token
@@ -70,13 +70,29 @@ export default function SectionEcosystem() {
               platform's generated fees.`}
               </span>
             </div>
-            <MainButton
-              href="https://pancakeswap.finance/swap?outputCurrency=0x27a339d9B59b21390d7209b78a839868E319301B"
-              title={"Buy Open"}
-              className={
-                "px-3 py-2 mt-5 bg-title text-sx font-extrabold hover:bg-button"
-              }
-            />
+            <div className="mb-10 mt-5 flex flex-wrap gap-2 md:mb-0">
+              <MainButton
+                href="https://app.uniswap.org/#/swap?outputCurrency=0x58CB98A966F62aA6F2190eB3AA03132A0c3de3D5&inputCurrency=0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+                title={"Buy on Uniswap"}
+                className={
+                  "px-3 py-2 bg-title text-sx font-extrabold hover:bg-button"
+                }
+              />
+              <MainButton
+                href="https://apeswap.finance/swap"
+                title={"Buy on ApeSwap"}
+                className={
+                  "px-3 py-2 bg-title text-sx font-extrabold hover:bg-button"
+                }
+              />
+              <MainButton
+                href="https://pancakeswap.finance/swap?outputCurrency=0x27a339d9B59b21390d7209b78a839868E319301B"
+                title={"Buy on Pancake"}
+                className={
+                  "px-3 py-2 bg-title text-sx font-extrabold hover:bg-button"
+                }
+              />
+            </div>
           </div>
           <div className="flex-1 bg-white rounded-3xl p-5 relative overflow-hidden mt-8 md:mt-0">
             <img
@@ -89,7 +105,7 @@ export default function SectionEcosystem() {
               alt="OP-defi-logo-01"
               style={{ height: 32 }}
             />
-            <div className="pt-4 px-6">
+            <div className="pt-4 md:px-6">
               <span className="text-sm font-semibold text-title">
                 {`Openworld is the utility and governance token. Accrues 30% of the
               platform's generated fees.`}
