@@ -53,10 +53,6 @@ const listSmallImage = [
     href: "https://t.me/OpenWorldVision",
   },
   {
-    src: "/wp/wp-content/uploads/2022/12/free-medium-icon-2177-thumb-blue.png",
-    href: "https://openworldvision.medium.com",
-  },
-  {
     src: "/wp/wp-content/uploads/2022/12/icon-blue.png",
     href: "https://bscscan.com/token/0x27a339d9b59b21390d7209b78a839868e319301b",
   },
@@ -86,7 +82,7 @@ export default function SectionPartners() {
               <img
                 src={item.src}
                 alt={""}
-                className="md:p-6 md:mx-0 my-4 scale-[0.65]	"
+                className="md:p-6 md:mx-0 my-4 scale-[0.7]	"
               />
             </div>
           );
@@ -100,7 +96,7 @@ export default function SectionPartners() {
               <img
                 src={item.src}
                 alt={""}
-                className="md:p-6 md:mx-0 my-4 scale-[0.65]	"
+                className="md:p-6 md:mx-0 my-4 scale-[0.7]	"
               />
             </div>
           );

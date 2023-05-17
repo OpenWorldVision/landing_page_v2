@@ -17,7 +17,7 @@ const buyOpen = [
   },
   {
     name: "Buy on ApeSwap",
-    href: "https://apeswap.finance/swap",
+    href: "https://apeswap.finance/swap?outputCurrency=0x58CB98A966F62aA6F2190eB3AA03132A0c3de3D5&inputCurrency=0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
   },
   {
     name: "Buy on Pancake",

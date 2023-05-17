@@ -62,8 +62,8 @@ export default function SectionTradeIntroduction() {
               className={"mr-4"}
             />
             <OutlineButton
-              href="https://discord.gg/zS2khZ4F7K"
-              title={"Join Discord"}
+              href="https://t.me/openworldglobal"
+              title={"Join Telegram"}
             />
           </div>
         </div>

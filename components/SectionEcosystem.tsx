@@ -64,13 +64,13 @@ export default function SectionEcosystem() {
               src={"/wp/wp-content/uploads/2022/12/OP-defi-logo-01.svg"}
               alt="OP-defi-logo-01"
             />
-            <div className="pt-4 md:px-6">
+            <div className="pt-4 md:px-6 z-10 relative">
               <span className="text-sm font-semibold text-title">
                 {`Openworld is the utility and governance token. Accrues 30% of the
               platform's generated fees.`}
               </span>
             </div>
-            <div className="mb-10 mt-5 flex flex-wrap gap-2 md:mb-0">
+            <div className="mb-10 mt-5 flex flex-wrap gap-2 md:mb-0 z-10 relative">
               <MainButton
                 href="https://app.uniswap.org/#/swap?outputCurrency=0x58CB98A966F62aA6F2190eB3AA03132A0c3de3D5&inputCurrency=0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
                 title={"Buy on Uniswap"}
@@ -79,7 +79,7 @@ export default function SectionEcosystem() {
                 }
               />
               <MainButton
-                href="https://apeswap.finance/swap"
+                href="https://apeswap.finance/swap?outputCurrency=0x58CB98A966F62aA6F2190eB3AA03132A0c3de3D5&inputCurrency=0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
                 title={"Buy on ApeSwap"}
                 className={
                   "px-3 py-2 bg-title text-sx font-extrabold hover:bg-button"
@@ -104,8 +104,9 @@ export default function SectionEcosystem() {
               src={"/wp/wp-content/uploads/2023/01/OAP-Logo.svg"}
               alt="OP-defi-logo-01"
               style={{ height: 32 }}
+              className="z-10 relative"
             />
-            <div className="pt-4 md:px-6">
+            <div className="pt-4 md:px-6 z-10 relative">
               <span className="text-sm font-semibold text-title">
                 {`Openworld is the utility and governance token. Accrues 30% of the
               platform's generated fees.`}
@@ -114,7 +115,7 @@ export default function SectionEcosystem() {
             <MainButton
               href="https://app.openworld.vision/#/buy_oap"
               title={"Buy OAP"}
-              className={"px-3 py-2 mt-5 text-sx font-extrabold"}
+              className={"px-3 py-2 mt-5 text-sx font-extrabold z-10 relative"}
             />
           </div>
         </div>
@@ -135,7 +136,7 @@ export default function SectionEcosystem() {
               & Arbitrum Chain.
             </span>
           </div>
-          <div className="flex flex-1 justify-center mx-8 mt-2 md:mt-0">
+          <div className="flex flex-1 justify-center mx-8 mt-8 mb-6 md:mt-0">
             <img
               src={"/wp/wp-content/uploads/2023/04/open-chain.png"}
               alt={"open-chain"}
