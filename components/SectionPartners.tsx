@@ -82,13 +82,17 @@ export default function SectionPartners() {
               <img
                 src={item.src}
                 alt={""}
-                className="md:p-6 md:mx-0 my-4 scale-[0.7]	"
+                className="md:p-6 md:mx-0 my-4 scale-95 md:scale-[0.7]	"
               />
             </div>
           );
         })}
       </div>
-      <img src="/wp/wp-content/uploads/2023/05/line2.png" alt={""} className="w-4/6 h-[2px] self-center md:w-3/6"/>
+      <img
+        src="/wp/wp-content/uploads/2023/05/line2.png"
+        alt={""}
+        className="w-4/6 h-[2px] self-center md:w-3/6"
+      />
       <div className="grid md:grid-cols-4 grid-cols-2 md:mb-28 mt-12">
         {listBottomImage.map((item, index) => {
           return (
@@ -96,7 +100,7 @@ export default function SectionPartners() {
               <img
                 src={item.src}
                 alt={""}
-                className="md:p-6 md:mx-0 my-4 scale-[0.7]	"
+                className="md:p-6 md:mx-0 my-4 scale-95 md:scale-[0.7]	"
               />
             </div>
           );
@@ -110,7 +114,11 @@ export default function SectionPartners() {
               href={item.href}
               className="md:px-6 flex justify-center"
             >
-              <img src={item.src} alt={""} className="md:mb-0 mb-8 w-9" />
+              <img
+                src={item.src}
+                alt={""}
+                className="md:mb-0 mb-8 w-9 scale-90 md:scale-100"
+              />
             </a>
           );
         })}
