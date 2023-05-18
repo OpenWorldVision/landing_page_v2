@@ -27,15 +27,25 @@ export default function Document() {
           content="Copyright© 2021-2023. All Rights Reserved"
         />
         <meta name="robots" content="All" />
-        <meta property="og:image" content="/wp/wp-content/uploads/2022/12/share-image.png"/>
-        <meta property="og:image:width" content="1200"/>
-        <meta property="og:image:height" content="630"/>
-        <meta property="og:image:type" content="image/png"/>
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:title" content="Openworld #DeFi, #DEX"/>
-        <meta name="twitter:description" content="OpenWorld is a decentralize derivative exchange"/>
-        <meta name="twitter:image" content="/wp/wp-content/uploads/2022/12/share-image.png"/>
+        <meta
+          property="og:image"
+          content="/wp/wp-content/uploads/2022/12/share-image.png"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Openworld #DeFi, #DEX" />
+        <meta
+          name="twitter:description"
+          content="OpenWorld is a decentralize derivative exchange"
+        />
+        <meta
+          name="twitter:image"
+          content="/wp/wp-content/uploads/2022/12/share-image.png"
+        />
       </Head>
+      <title>OpenWorld #DeFi #DEX</title>
       <body>
         <Main />
         <NextScript />
