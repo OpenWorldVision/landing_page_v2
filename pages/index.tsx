@@ -11,6 +11,7 @@ import ScrollIndicator from "@/components/ScrollIndicator";
 import MigrateToken from "@/components/MigrateToken";
 
 import { GetServerSideProps } from "next";
+export const config = { runtime: "edge" };
 
 export const getServerSideProps: GetServerSideProps<any> = async () => {
   //@ts-ignore
