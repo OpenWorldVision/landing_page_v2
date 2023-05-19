@@ -1,25 +1,29 @@
 import Image from "next/image";
 import MainImage from "./MainImage";
 
-const listImage = [
+const listTopImage = [
+  { src: "/wp/wp-content/uploads/2023/05/arbitrum.png" },
+  { src: "/wp/wp-content/uploads/2023/05/certik.png" },
+  { src: "/wp/wp-content/uploads/2023/05/abeswap.png" },
+  { src: "/wp/wp-content/uploads/2023/03/kypeswap-logo-blue.png" },
+  { src: "/wp/wp-content/uploads/2023/04/stably-logo-blue.png" },
   { src: "/wp/wp-content/uploads/2022/12/harmony-logo-blue.png" },
+  { src: "/wp/wp-content/uploads/2022/12/formless-logo-blue.png" },
+  { src: "/wp/wp-content/uploads/2023/05/arbiscan.png" },
+  { src: "/wp/wp-content/uploads/2023/05/swing-xyz.png" },
+];
+const listBottomImage = [
   { src: "/wp/wp-content/uploads/2022/12/cloudjet-blue.png" },
-  { src: "/wp/wp-content/uploads/2022/12/XBN-blue.png" },
   { src: "/wp/wp-content/uploads/2022/12/altair-alpha-blue.png" },
   { src: "/wp/wp-content/uploads/2022/12/altair-cliff-blue.png" },
   { src: "/wp/wp-content/uploads/2022/12/now-wallet-logo-blue.png" },
-  { src: "/wp/wp-content/uploads/2023/03/kypeswap-logo-blue.png" },
-  { src: "/wp/wp-content/uploads/2023/04/stably-logo-blue.png" },
-  { src: "/wp/wp-content/uploads/2023/05/abeswap.png" },
   { src: "/wp/wp-content/uploads/2022/12/youMeme-logo-blue.png" },
   { src: "/wp/wp-content/uploads/2022/12/upgrade-design-logo-blue.png" },
-  { src: "/wp/wp-content/uploads/2022/12/ttrlogo-blue.png" },
   { src: "/wp/wp-content/uploads/2022/12/tribeone-logo-white-blue.png" },
   { src: "/wp/wp-content/uploads/2022/12/sandboxcasino-blue.png" },
   { src: "/wp/wp-content/uploads/2022/12/plataOcrypto-logo-blue.png" },
   { src: "/wp/wp-content/uploads/2022/12/hyve-logo-blue.png" },
   { src: "/wp/wp-content/uploads/2022/12/hyperjump-blue.png" },
-  { src: "/wp/wp-content/uploads/2022/12/formless-logo-blue.png" },
   { src: "/wp/wp-content/uploads/2022/12/coverCompared-blue.png" },
 ];
 
@@ -49,14 +53,6 @@ const listSmallImage = [
     href: "https://t.me/OpenWorldVision",
   },
   {
-    src: "/wp/wp-content/uploads/2022/12/medium-blue@0.5x.png",
-    href: "https://openworldvision.substack.com/",
-  },
-  {
-    src: "/wp/wp-content/uploads/2022/12/free-medium-icon-2177-thumb-blue.png",
-    href: "https://openworldvision.medium.com",
-  },
-  {
     src: "/wp/wp-content/uploads/2022/12/icon-blue.png",
     href: "https://bscscan.com/token/0x27a339d9b59b21390d7209b78a839868e319301b",
   },
@@ -79,15 +75,32 @@ export default function SectionPartners() {
         width={68}
         height={4}
       />
-      <div className="grid md:grid-cols-4 grid-cols-2 md:mt-20 md:mb-28 mt-12">
-        {listImage.map((item, index) => {
+      <div className="grid md:grid-cols-4 grid-cols-2 md:mt-20 mt-12">
+        {listTopImage.map((item, index) => {
           return (
             <div key={index} className="flex justify-center">
               <img
-                sizes="md:10vw"
                 src={item.src}
                 alt={""}
-                className="md:p-6 md:mx-0 my-4 scale-75	"
+                className="md:p-6 md:mx-0 my-4 scale-95 md:scale-[0.7]	"
+              />
+            </div>
+          );
+        })}
+      </div>
+      <img
+        src="/wp/wp-content/uploads/2023/05/line2.png"
+        alt={""}
+        className="w-4/6 h-[2px] self-center md:w-3/6"
+      />
+      <div className="grid md:grid-cols-4 grid-cols-2 md:mb-28 mt-12">
+        {listBottomImage.map((item, index) => {
+          return (
+            <div key={index} className="flex justify-center">
+              <img
+                src={item.src}
+                alt={""}
+                className="md:p-6 md:mx-0 my-4 scale-95 md:scale-[0.7]	"
               />
             </div>
           );
@@ -101,7 +114,11 @@ export default function SectionPartners() {
               href={item.href}
               className="md:px-6 flex justify-center"
             >
-              <img src={item.src} alt={""} className="md:mb-0 mb-8 w-9" />
+              <img
+                src={item.src}
+                alt={""}
+                className="md:mb-0 mb-8 w-9 scale-90 md:scale-100"
+              />
             </a>
           );
         })}

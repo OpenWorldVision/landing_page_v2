@@ -23,7 +23,7 @@ export default function SectionTradeIntroduction() {
             alt={"trade-free-icon"}
             width={64}
             height={64}
-            className="shadow-2xl rounded-3xl mb-5"
+            className="shadow-2xl rounded-3xl mb-5 mt-10 md:mt-0"
           />
           <span className="text-title text-2xl font-bold leading-tight ">
             Zero price impact with minimum fee
@@ -62,8 +62,8 @@ export default function SectionTradeIntroduction() {
               className={"mr-4"}
             />
             <OutlineButton
-              href="https://discord.gg/zS2khZ4F7K"
-              title={"Join Discord"}
+              href="https://t.me/openworldglobal"
+              title={"Join Telegram"}
             />
           </div>
         </div>
