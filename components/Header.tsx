@@ -37,7 +37,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white w-full">
+    <header className="bg-white w-full fixed top-0 z-50">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
@@ -64,8 +64,8 @@ export default function Header() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a href="https://wiki.openworld.vision/">Docs</a>
-          <a href="http://app.openworld.vision/">Launch App</a>
+          <a className="text-gray-900" href="https://wiki.openworld.vision/">Docs</a>
+          <a className="text-gray-900" href="http://app.openworld.vision/">Launch App</a>
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 leading-6 text-gray-900">
               Buy Open
@@ -141,7 +141,7 @@ export default function Header() {
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base leading-7 hover:bg-gray-50">
+                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base leading-7 hover:bg-gray-50 text-gray-900">
                         Buy Open
                         <FontAwesomeIcon
                           icon={faChevronDown}
@@ -153,34 +153,6 @@ export default function Header() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
                         {buyOpen.map((item) => (
-                          <Disclosure.Button
-                            key={item.name}
-                            as="a"
-                            href={item.href}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50"
-                          >
-                            {item.name}
-                          </Disclosure.Button>
-                        ))}
-                      </Disclosure.Panel>
-                    </>
-                  )}
-                </Disclosure>
-                <Disclosure as="div" className="-mx-3">
-                  {({ open }) => (
-                    <>
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base leading-7 hover:bg-gray-50">
-                        Buy Bond
-                        <FontAwesomeIcon
-                          icon={faChevronDown}
-                          className={classNames(
-                            open ? "rotate-180" : "",
-                            "h-5 w-5 flex-none"
-                          )}
-                        />
-                      </Disclosure.Button>
-                      <Disclosure.Panel className="mt-2 space-y-2">
-                        {buyBond.map((item) => (
                           <Disclosure.Button
                             key={item.name}
                             as="a"

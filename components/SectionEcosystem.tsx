@@ -66,8 +66,7 @@ export default function SectionEcosystem() {
             />
             <div className="pt-4 md:px-6 z-10 relative">
               <span className="text-sm font-semibold text-title">
-                {`Openworld is the utility and governance token. Accrues 30% of the
-              platform's generated fees.`}
+                {`OPEN controls 30% of protocol fee and net fee inflow, represent governance interests of OpenWorld protocol.`}
               </span>
             </div>
             <div className="mb-10 mt-5 flex flex-wrap gap-2 md:mb-0 z-10 relative">
@@ -108,8 +107,7 @@ export default function SectionEcosystem() {
             />
             <div className="pt-4 md:px-6 z-10 relative">
               <span className="text-sm font-semibold text-title">
-                {`Openworld is the utility and governance token. Accrues 30% of the
-              platform's generated fees.`}
+                {`OAP is the liquidity provider token. Accrues 70% of the platform's generated fees.`}
               </span>
             </div>
             <MainButton
