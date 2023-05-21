@@ -32,7 +32,7 @@ export default function SectionEcosystem() {
     >
       <div className="flex flex-col md:py-20 max-w-screen-xl px-10">
         <img
-          src="/wp/wp-content/uploads/2022/12/ecosytem-icon.svg"
+          src="img/ecosytem-icon.svg"
           alt={"trade-free-icon"}
           width={64}
           height={64}
@@ -44,7 +44,7 @@ export default function SectionEcosystem() {
           Ecosystem
         </span>
         <img
-          src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
+          src="img/Rectangle-27.svg"
           className="my-2"
           alt={"Rectangle-27"}
           width={68}
@@ -56,14 +56,11 @@ export default function SectionEcosystem() {
         <div className="flex flex-col md:flex-row mt-12">
           <div className="flex-1 bg-white md:mr-5 rounded-3xl p-5 relative overflow-hidden">
             <img
-              src={"/wp/wp-content/uploads/2023/05/bg_buy_open.svg"}
+              src={"img/bg_buy_open.svg"}
               alt={"bg_buy_open"}
               className="absolute h-full right-0 bottom-0"
             />
-            <img
-              src={"/wp/wp-content/uploads/2022/12/OP-defi-logo-01.svg"}
-              alt="OP-defi-logo-01"
-            />
+            <img src={"img/OP-defi-logo-01.svg"} alt="OP-defi-logo-01" />
             <div className="pt-4 md:px-6 z-10 relative">
               <span className="text-sm font-semibold text-title">
                 {`OPEN controls 30% of protocol fee and net fee inflow, represent governance interests of OpenWorld protocol.`}
@@ -95,12 +92,12 @@ export default function SectionEcosystem() {
           </div>
           <div className="flex-1 bg-white rounded-3xl p-5 relative overflow-hidden mt-8 md:mt-0">
             <img
-              src={"/wp/wp-content/uploads/2023/05/bg_buy_oap.svg"}
+              src={"img/bg_buy_oap.svg"}
               alt={"bg_buy_oap"}
               className="absolute h-full right-0 bottom-0 font-extrabold"
             />
             <img
-              src={"/wp/wp-content/uploads/2023/01/OAP-Logo.svg"}
+              src={"img/OAP-Logo.svg"}
               alt="OP-defi-logo-01"
               style={{ height: 32 }}
               className="z-10 relative"
@@ -123,7 +120,7 @@ export default function SectionEcosystem() {
               Two tokens create our ecosystem
             </span>
             <img
-              src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
+              src="img/Rectangle-27.svg"
               className="my-2"
               alt={"Rectangle-27"}
               width={68}
@@ -135,10 +132,7 @@ export default function SectionEcosystem() {
             </span>
           </div>
           <div className="flex flex-1 justify-center mx-8 mt-8 mb-6 md:mt-0">
-            <img
-              src={"/wp/wp-content/uploads/2023/04/open-chain.png"}
-              alt={"open-chain"}
-            />
+            <img src={"img/open-chain.webp"} alt={"open-chain"} />
           </div>
           <MainButton
             href="https://app.openworld.vision/"
@@ -151,7 +145,7 @@ export default function SectionEcosystem() {
             Trusted by over 55,000 traders
           </span>
           <img
-            src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
+            src="img/Rectangle-27.svg"
             className="my-2"
             alt={"Rectangle-27"}
             width={68}
