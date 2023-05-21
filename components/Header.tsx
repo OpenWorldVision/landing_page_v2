@@ -46,7 +46,7 @@ export default function Header() {
           <a href="#" className="-m-1.5 p-1.5">
             <img
               className="h-8 w-auto"
-              src="/wp/wp-content/uploads/2022/12/opw-icon-logo.svg"
+              src="img/opw-icon-logo.svg"
               alt="logo"
               width={32}
               height={32}
@@ -64,8 +64,12 @@ export default function Header() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a className="text-gray-900" href="https://wiki.openworld.vision/">Docs</a>
-          <a className="text-gray-900" href="http://app.openworld.vision/">Launch App</a>
+          <a className="text-gray-900" href="https://wiki.openworld.vision/">
+            Docs
+          </a>
+          <a className="text-gray-900" href="http://app.openworld.vision/">
+            Launch App
+          </a>
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 leading-6 text-gray-900">
               Buy Open
@@ -115,7 +119,7 @@ export default function Header() {
             <a href="#" className="-m-1.5 p-1.5">
               <img
                 className="h-8 w-auto"
-                src="/wp/wp-content/uploads/2022/12/opw-icon-logo.svg"
+                src="img/opw-icon-logo.svg"
                 alt="logo"
                 width={32}
                 height={32}

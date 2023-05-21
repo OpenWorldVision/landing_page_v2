@@ -2,62 +2,62 @@ import Image from "next/image";
 import MainImage from "./MainImage";
 
 const listTopImage = [
-  { src: "/wp/wp-content/uploads/2023/05/arbitrum.png" },
-  { src: "/wp/wp-content/uploads/2023/05/certik.png" },
-  { src: "/wp/wp-content/uploads/2023/05/abeswap.png" },
-  { src: "/wp/wp-content/uploads/2023/03/kypeswap-logo-blue.png" },
-  { src: "/wp/wp-content/uploads/2023/04/stably-logo-blue.png" },
-  { src: "/wp/wp-content/uploads/2022/12/harmony-logo-blue.png" },
-  { src: "/wp/wp-content/uploads/2022/12/formless-logo-blue.png" },
-  { src: "/wp/wp-content/uploads/2023/05/arbiscan.png" },
-  { src: "/wp/wp-content/uploads/2023/05/swing-xyz.png" },
+  { src: "img/arbitrum.webp" },
+  { src: "img/certik.webp" },
+  { src: "img/abeswap.webp" },
+  { src: "img/kypeswap-logo-blue.webp" },
+  { src: "img/stably-logo-blue.webp" },
+  { src: "img/harmony-logo-blue.webp" },
+  { src: "img/formless-logo-blue.webp" },
+  { src: "img/arbiscan.webp" },
+  { src: "img/swing-xyz.webp" },
 ];
 const listBottomImage = [
-  { src: "/wp/wp-content/uploads/2022/12/cloudjet-blue.png" },
-  { src: "/wp/wp-content/uploads/2022/12/altair-alpha-blue.png" },
-  { src: "/wp/wp-content/uploads/2022/12/altair-cliff-blue.png" },
-  { src: "/wp/wp-content/uploads/2022/12/now-wallet-logo-blue.png" },
-  { src: "/wp/wp-content/uploads/2022/12/youMeme-logo-blue.png" },
-  { src: "/wp/wp-content/uploads/2022/12/upgrade-design-logo-blue.png" },
-  { src: "/wp/wp-content/uploads/2022/12/tribeone-logo-white-blue.png" },
-  { src: "/wp/wp-content/uploads/2022/12/sandboxcasino-blue.png" },
-  { src: "/wp/wp-content/uploads/2022/12/plataOcrypto-logo-blue.png" },
-  { src: "/wp/wp-content/uploads/2022/12/hyve-logo-blue.png" },
-  { src: "/wp/wp-content/uploads/2022/12/hyperjump-blue.png" },
-  { src: "/wp/wp-content/uploads/2022/12/coverCompared-blue.png" },
+  { src: "img/cloudjet-blue.webp" },
+  { src: "img/altair-alpha-blue.webp" },
+  { src: "img/altair-cliff-blue.webp" },
+  { src: "img/now-wallet-logo-blue.webp" },
+  { src: "img/youMeme-logo-blue.webp" },
+  { src: "img/upgrade-design-logo-blue.webp" },
+  { src: "img/tribeone-logo-white-blue.webp" },
+  { src: "img/sandboxcasino-blue.webp" },
+  { src: "img/plataOcrypto-logo-blue.webp" },
+  { src: "img/hyve-logo-blue.webp" },
+  { src: "img/hyperjump-blue.webp" },
+  { src: "img/coverCompared-blue.webp" },
 ];
 
 const listSmallImage = [
   {
-    src: "/wp/wp-content/uploads/2022/12/coingecko-blue@0.3x.png",
+    src: "img/coingecko-blue@0.3x.webp",
     href: "https://www.coingecko.com/en/coins/openworld",
   },
   {
-    src: "/wp/wp-content/uploads/2022/12/pancakeswap-cake-logo-blue@0.3x.png",
+    src: "img/pancakeswap-cake-logo-blue@0.3x.webp",
     href: "https://pancakeswap.finance/swap?outputCurrency=0x27a339d9B59b21390d7209b78a839868E319301B",
   },
   {
-    src: "/wp/wp-content/uploads/2022/12/733635-blue.png",
+    src: "img/733635-blue.webp",
     href: "https://twitter.com/OpenWorldVision",
   },
   {
-    src: "/wp/wp-content/uploads/2022/12/discord-blue.png",
+    src: "img/discord-blue.webp",
     href: "https://discord.com/invite/zS2khZ4F7K",
   },
   {
-    src: "/wp/wp-content/uploads/2022/12/telegram-blue.png",
+    src: "img/telegram-blue.webp",
     href: "https://t.me/openworldglobal",
   },
   {
-    src: "/wp/wp-content/uploads/2022/12/loudspeaker-icon-blue.png",
+    src: "img/loudspeaker-icon-blue.webp",
     href: "https://t.me/OpenWorldVision",
   },
   {
-    src: "/wp/wp-content/uploads/2022/12/icon-blue.png",
+    src: "img/icon-blue.webp",
     href: "https://bscscan.com/token/0x27a339d9b59b21390d7209b78a839868e319301b",
   },
   {
-    src: "/wp/wp-content/uploads/2022/12/coinmarketcap-icon-blue.png",
+    src: "img/coinmarketcap-icon-blue.webp",
     href: "https://coinmarketcap.com/currencies/cryptowar-xblade",
   },
 ];
@@ -69,7 +69,7 @@ export default function SectionPartners() {
         Backers & Partners
       </span>
       <img
-        src="/wp/wp-content/uploads/2022/12/Rectangle-27.svg"
+        src="img/Rectangle-27.svg"
         className="self-center"
         alt={"Rectangle-27"}
         width={68}
@@ -89,7 +89,7 @@ export default function SectionPartners() {
         })}
       </div>
       <img
-        src="/wp/wp-content/uploads/2023/05/line2.png"
+        src="img/line2.webp"
         alt={""}
         className="w-4/6 h-[2px] self-center md:w-3/6"
       />

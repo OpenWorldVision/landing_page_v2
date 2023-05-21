@@ -27,10 +27,7 @@ export default function Document() {
           content="Copyright© 2021-2023. All Rights Reserved"
         />
         <meta name="robots" content="All" />
-        <meta
-          property="og:image"
-          content="/wp/wp-content/uploads/2022/12/share-image.png"
-        />
+        <meta property="og:image" content="img/share-image.webp" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:type" content="image/png" />
@@ -40,10 +37,7 @@ export default function Document() {
           name="twitter:description"
           content="OpenWorld is a decentralize derivative exchange"
         />
-        <meta
-          name="twitter:image"
-          content="/wp/wp-content/uploads/2022/12/share-image.png"
-        />
+        <meta name="twitter:image" content="img/share-image.webp" />
       </Head>
       <title>OpenWorld #DeFi #DEX</title>
       <body>
