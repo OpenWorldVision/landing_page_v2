@@ -88,13 +88,13 @@ export default function SectionPartners() {
           );
         })}
       </div>
-      <img
+      {/* <img
         src="img/line2.webp"
         alt={""}
         className="w-4/6 h-[2px] self-center md:w-3/6"
-      />
+      /> */}
       <div className="grid md:grid-cols-4 grid-cols-2 md:mb-28 mt-12">
-        {listBottomImage.map((item, index) => {
+        {/* {listBottomImage.map((item, index) => {
           return (
             <div key={index} className="flex justify-center">
               <img
@@ -104,7 +104,7 @@ export default function SectionPartners() {
               />
             </div>
           );
-        })}
+        })} */}
       </div>
       <div className="md:flex md:flex-1 md:justify-around grid grid-cols-4 mt-8 md:mt-0">
         {listSmallImage.map((item, index) => {
