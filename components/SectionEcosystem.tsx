@@ -1,6 +1,4 @@
-import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import MainImage from "./MainImage";
 import MainButton from "./MainButton";
 import { formatAmount } from "@/utils/numbers";
 
@@ -8,12 +6,16 @@ export default function SectionEcosystem() {
   const [tvl, setTVL] = useState("0");
 
   async function getData() {
-    const res = await fetch("https://keeper-bot.openworld.vision/api/v1/tvl");
-    if (!res.ok) {
-      throw new Error("Failed to fetch data");
-    }
+    try {
+      const res = await fetch("https://keeper-bot.openworld.vision/api/v1/tvl");
+      if (!res.ok) {
+        return {};
+      }
 
-    return res.json();
+      return res.json();
+    } catch (error) {
+      return {};
+    }
   }
 
   useEffect(() => {

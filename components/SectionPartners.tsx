@@ -2,15 +2,14 @@ import Image from "next/image";
 import MainImage from "./MainImage";
 
 const listTopImage = [
-  { src: "img/arbitrum.webp" },
   { src: "img/certik.webp" },
-  { src: "img/abeswap.webp" },
   { src: "img/kypeswap-logo-blue.webp" },
+  { src: "img/swing-xyz.webp" },
+  { src: "img/abeswap.webp" },
+  { src: "img/arbitrum.webp" },
   { src: "img/stably-logo-blue.webp" },
   { src: "img/harmony-logo-blue.webp" },
-  { src: "img/formless-logo-blue.webp" },
-  { src: "img/arbiscan.webp" },
-  { src: "img/swing-xyz.webp" },
+  { src: "img/chainlink.webp" },
 ];
 const listBottomImage = [
   { src: "img/cloudjet-blue.webp" },
@@ -82,7 +81,7 @@ export default function SectionPartners() {
               <img
                 src={item.src}
                 alt={""}
-                className="md:p-6 md:mx-0 my-4 scale-95 md:scale-[0.7]	"
+                className="md:p-6 md:mx-0 my-4 scale-95 md:scale-[0.7]"
               />
             </div>
           );
