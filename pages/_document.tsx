@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta name="identifier-url" content="https://openworld.vision/" />
+        <meta name="identifier-url" content="https://www.ow.finance/" />
         <meta name="title" content="Openworld #DeFi, #DEX" />
         <meta
           name="description"

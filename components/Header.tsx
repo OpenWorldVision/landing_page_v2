@@ -64,10 +64,10 @@ export default function Header() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a className="text-gray-900" href="https://wiki.openworld.vision/">
+          <a className="text-gray-900" href="https://wiki.ow.finance/">
             Docs
           </a>
-          <a className="text-gray-900" href="http://app.openworld.vision/">
+          <a className="text-gray-900" href="https://www.ow.finance/">
             Launch App
           </a>
           <Popover className="relative">
@@ -137,7 +137,7 @@ export default function Header() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <a
-                  href="https://wiki.openworld.vision/"
+                  href="https://wiki.ow.finance/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   White Paper
@@ -171,13 +171,13 @@ export default function Header() {
                   )}
                 </Disclosure>
                 <a
-                  href="https://openworld.vision/"
+                  href="https://www.ow.finance/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Protocol
                 </a>
                 <a
-                  href="https://app.openworld.vision/"
+                  href="https://www.ow.finance/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Launch App
@@ -185,7 +185,7 @@ export default function Header() {
 
                 <div className="text-sm mt-4 text-text">
                   © 2021-2023{" "}
-                  <a href="https://openworld.vision/" target="_blank">
+                  <a href="https://www.ow.finance/" target="_blank">
                     OpenWorld
                   </a>
                   . All rights reserved

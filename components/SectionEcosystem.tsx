@@ -110,7 +110,7 @@ export default function SectionEcosystem() {
               </span>
             </div>
             <MainButton
-              href="https://app.openworld.vision/#/buy_oap"
+              href="https://www.ow.finance/#/buy_oap"
               title={"Buy OAP"}
               className={"px-3 py-2 mt-5 text-sx font-extrabold z-10 relative"}
             />
@@ -137,7 +137,7 @@ export default function SectionEcosystem() {
             <img src={"img/open-chain.webp"} alt={"open-chain"} />
           </div>
           <MainButton
-            href="https://app.openworld.vision/"
+            href="https://www.ow.finance/"
             title={"Launch App"}
             className="self-center px-6 py-4 my-3 md:my-0"
           />

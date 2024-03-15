@@ -30,7 +30,7 @@ export default function SectionQuickIntroduction() {
         </span>
 
         <MainButton
-          href="https://app.openworld.vision/"
+          href="https://www.ow.finance/"
           title={"Launch App"}
           className={"px-10 py-4 mt-4 text-lg"}
         />

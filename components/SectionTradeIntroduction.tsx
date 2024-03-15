@@ -43,7 +43,7 @@ export default function SectionTradeIntroduction() {
         <div className="flex my-4 flex-col md:my-0 md:p-8 xl:flex-row">
           <div className="flex-1">
             <MainButton
-              href="https://app.openworld.vision/#/trade"
+              href="https://www.ow.finance/#/trade"
               title={"Trade Now"}
               icon={
                 <FontAwesomeIcon
@@ -57,7 +57,7 @@ export default function SectionTradeIntroduction() {
           </div>
           <div className="flex flex-1 xl:justify-end mt-2 xl:mt-0">
             <OutlineButton
-              href="https://wiki.openworld.vision/"
+              href="https://wiki.ow.finance/"
               title={"Learn more"}
               className={"mr-4"}
             />
