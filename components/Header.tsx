@@ -2,13 +2,7 @@ import { Fragment, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faArrowDown,
-  faArrowDownUpLock,
-  faChevronCircleDown,
-  faChevronDown,
-  faClose,
-} from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown, faClose } from "@fortawesome/free-solid-svg-icons";
 
 const buyOpen = [
   {
